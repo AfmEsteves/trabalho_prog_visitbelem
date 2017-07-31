@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("imagens/maat1.jpg") !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 580px;
+}
+
+/* HEADER */
+
+
+header {
+	height: 160px;
+	width: 100%;
+	background-color: white;
+}
+
+header h1 {
+    background: url("imagens/logotipo_site.png") no-repeat center right ;
+    margin-left: 90px;
+	text-indent: -3000px;
+    width: 181px;
+    height: 103px;
+	float: left
+}
+
+header h2 {
+	display: none
+}
+
+nav {
+	display: inline-block;
+	float: right !important;
+	padding: 130px 40px 0px 0px !important;
+	font-size: 12px	
+}
+
+nav a {		
+	top: 200px
+	padding: 14px 16px;
+	color: black;
+	font-family: "Merge", "strong";
+	text-decoration: none;
+}
+
+/* MAIN */
+
+main section {
+  height: 4em;
+  padding-top: 2em;
+  margin-top: 5.0em;
+  color: white
+}
+
+main section h2 {
+    margin-left: 110px;
+	font-family: "Merge", "strong";
+	font-size: 30px
+}
+
+main section p {
+	width: 600px;
+	height: 300px;
+	margin-left: 110px;
+	font-family: "Merge", "strong";
+	line-height: 2.4em
+	padding: 40px 30px 30px 30px;
+}
+
+
+footer {
+	padding: 660px 10px 10px 0px
+}
+
+footer h2 {
+   	margin-left: 110px !important;
+	font-family: "Merge", "strong";
+	font-size: 14px
+}
+
+footer p {
+   	margin-left: 110px !important;
+	font-family: "Merge", "strong";
+	font-size: 11px
+}
